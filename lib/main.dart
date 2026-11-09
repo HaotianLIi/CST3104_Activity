@@ -90,6 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: InputDecoration(
                   hintText: "number1",
                   border: OutlineInputBorder(),
+                  labelText: "number1",
                 ),
               ),
             ),
@@ -99,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: InputDecoration(
                   hintText: "number2",
                   border: OutlineInputBorder(),
+                  labelText: "number2",
                 ),
                 keyboardType: TextInputType.number,
               ),
